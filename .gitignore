@@ -1,0 +1,31 @@
+node_modules/
+.expo/
+dist*/
+*.ipa
+*.apk
+.install-complete
+
+android-build-tools/
+android-delivery/*PRIVATE*
+android/local.properties
+android/.gradle/
+**/build/
+**/.cxx/
+*.jks
+*.keystore
+
+# Local credentials and private backups
+.env
+.env.*
+!.env.example
+credentials.json
+*PRIVATE*
+*.p12
+*.pfx
+
+# Published Android installer
+!downloads/NeonDrive_Android_ARM64.apk
+
+# Kotlin local sessions
+**/.kotlin/
+*.salive

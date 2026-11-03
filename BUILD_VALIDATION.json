@@ -1,0 +1,22 @@
+{
+  "app": "Neon Drive",
+  "version": "1.0.0",
+  "package": "com.neondrive.sensorlab",
+  "min_android": "7.0 (API 24)",
+  "architecture": "arm64-v8a",
+  "size_bytes": 22667489,
+  "sha256": "2757a8a5a4a1425cc0b2739504c6889f58f602123de04a7809cc5d356c36a947",
+  "checks": [
+    "Gradle assembleRelease succeeded",
+    "APK v2 signature verified against release key",
+    "ZIP integrity verified",
+    "embedded Hermes game bundle present",
+    "release not debuggable",
+    "launchable MainActivity present",
+    "16KB APK alignment and native ELF load alignment verified",
+    "15 game engine tests passed"
+  ],
+  "limitations": [
+    "Not tested on a physical Android phone."
+  ]
+}
